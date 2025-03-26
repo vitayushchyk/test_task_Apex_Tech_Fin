@@ -6,7 +6,6 @@ from strategies.rsi_bb import RsiBollingerStrategy
 from strategies.sma_cross import SmaCrossoverStrategy
 from strategies.vwap_reversion import VWAPReversionStrategy
 
-# Налаштування логування
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
