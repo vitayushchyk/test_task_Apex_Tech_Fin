@@ -164,7 +164,6 @@ notes
 .DS_Store
 .env
 .idea/
-data/
 data_loader.log
 data_processing.log
 .idea/
