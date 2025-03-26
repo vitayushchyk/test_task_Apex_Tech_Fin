@@ -40,7 +40,11 @@ This project is designed for backtesting algorithmic trading strategies using Py
 ## Usage
 
 1. **Run the backtester**:
-    Use `main.py` to execute all strategies:
+    Use `main.py` to execute all strategies. Before running, ensure that the `PYTHONPATH` environment variable is set to the root directory of the project.
+
+    ### Example:
     ```bash
-    python main.py
+    export PYTHONPATH=/path/to/your/project
+    python3 main.py
     ```
+    Replace `/path/to/your/project` with the absolute path to the root of the project where `main.py` is located.
