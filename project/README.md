@@ -42,5 +42,5 @@ This project is designed for backtesting algorithmic trading strategies using Py
 1. **Run the backtester**:
     Use `main.py` to execute all strategies:
     ```bash
-    python3 main.py
+    python main.py
     ```
