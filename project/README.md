@@ -1,14 +1,19 @@
 # Technical test task for Apex Tech Fin
 
-This project is designed for backtesting algorithmic trading strategies using Python. The system supports multiple strategies, such as **SMA Crossover**, **RSI + Bollinger Bands**, and **VWAP Reversion**, with the ability to evaluate their performance through backtests.
+This project is designed for backtesting algorithmic trading strategies using Python. The system supports multiple
+strategies, such as **SMA Crossover**, **RSI + Bollinger Bands**, and **VWAP Reversion**, with the ability to evaluate
+their performance through backtests.
 
 ---
 
 ## Features
+
 - **Support for multiple trading strategies**:
-  - **SMA Crossover Strategy**: Uses short and long simple moving averages for generating buy and sell signals.
-  - **RSI + Bollinger Bands**: Combines the Relative Strength Index (RSI) with Bollinger Band indicators for signal generation.
-  - **VWAP Reversion Strategy**: Based on price deviation from the Volume-Weighted Average Price (VWAP) to identify potential reversals.
+    - **SMA Crossover Strategy**: Uses short and long simple moving averages for generating buy and sell signals.
+    - **RSI + Bollinger Bands**: Combines the Relative Strength Index (RSI) with Bollinger Band indicators for signal
+      generation.
+    - **VWAP Reversion Strategy**: Based on price deviation from the Volume-Weighted Average Price (VWAP) to identify
+      potential reversals.
 - **Real market data** is used to generate signals.
 - Results are saved as CSV files and visualized in PNG graphs.
 - Metrics including **Total Return**, **Sharpe Ratio**, **Max Drawdown**, and more are automatically calculated.
@@ -18,6 +23,7 @@ This project is designed for backtesting algorithmic trading strategies using Py
 ## Results
 
 ### Key Metrics
+
 *The strategies are further visualized with graphs (saved as PNG images).*
 
 ---
@@ -40,11 +46,14 @@ This project is designed for backtesting algorithmic trading strategies using Py
 ## Usage
 
 1. **Run the backtester**:
-    Use `main.py` to execute all strategies. Before running, ensure that the `PYTHONPATH` environment variable is set to the root directory of the project.
 
-    ### Example:
     ```bash
-    export PYTHONPATH=/path/to/your/project
-    python3 main.py
+    cd project
+    python3 ./main.py
     ```
-    Replace `/path/to/your/project` with the absolute path to the root of the project where `main.py` is located.
+2. **Run tests**
+
+  ```bash
+    cd project
+    python3 -m unittest discover -s tests -p "*.py"
+   ```
