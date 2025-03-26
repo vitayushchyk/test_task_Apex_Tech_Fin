@@ -1,1 +1,0 @@
-# test_task_Apex_Tech_Fin
