@@ -53,7 +53,7 @@ their performance through backtests.
     ```
 2. **Run tests**
 
-  ```bash
-    cd project
-    python3 -m unittest discover -s tests -p "*.py"
-   ```
+      ```bash
+        cd project
+        python3 -m unittest discover -s tests -p "*.py"
+    ```
