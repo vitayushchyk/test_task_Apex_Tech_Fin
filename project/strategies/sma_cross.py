@@ -3,7 +3,7 @@ import logging
 import numpy as np
 import pandas as pd
 
-from project.strategies.base import StrategyBase
+from strategies.base import StrategyBase
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
